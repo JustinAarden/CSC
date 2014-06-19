@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="017b334b-ea0a-4cf7-b250-ac27fe61bf1d" name="DataAccessLayer" linkedPackageId="58f8999b-447e-4702-9542-76fa247ad289" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="9d0414ba-d06b-4a95-8294-cf8ec97fc704">
+      <profileInstance Id="0f7c3dba-6644-4c14-841b-1b9a8c367ad3" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f81000f1-7481-4eaf-8862-eb7527c04b1c">
+      <profileInstance Id="9da74859-3d01-4529-958f-71d41a685f70" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bb150a71-fe41-4b66-945e-25dabcf603f9" name="DALShip" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5bc1e628-2fa9-413b-8b90-91f3e75c5455" />
+        <targetEnds>
+          <association Id="4ae2de57-b8da-4486-8f9d-0fc8b7c54c93" isDerived="false" sourceEndRoleName="DALShip" targetEndRoleName="Database" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f9add3d7-4a32-4315-887e-8e6678a28912" LastKnownName="Database" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77cccc32-b4a8-47aa-b5ed-37a00bb97775" name="DALShip" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4857e1e5-8a7e-48ac-8845-f07117ff3f9c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="691d7170-7304-4552-afe9-9b77df5bddb2" name="Database" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8d72fab1-3079-4cf2-adbd-fd9d38a2ef1c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c6dfa260-940b-4bfc-a498-f1a287783bd7" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e5f162f2-19a4-40b5-a068-a1dd56bd0ec4" name="DALContainer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="444c9fba-ba35-4789-b5ca-f0cbed6d1dc4" />
+        <targetEnds>
+          <association Id="6e74260c-a109-4904-85d1-9dfb07a7e45b" isDerived="false" sourceEndRoleName="DALContainer" targetEndRoleName="Database" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f9add3d7-4a32-4315-887e-8e6678a28912" LastKnownName="Database" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ba9d4204-5506-40a3-9c99-25325d318587" name="DALContainer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="24f8d859-85bb-46cc-9cf6-a22fdc0cad50" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1cdd81b0-1818-49a6-bbf8-7d0312522c27" name="Database" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ac84d01e-af55-4900-b191-b792b66a1219" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d2d7dd3b-6711-4bed-8128-0bea1227be53" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d10982b8-e887-4f26-8483-8b694760cdea" name="DALPort" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8a8c439a-432c-402f-84d8-1433519050cc" />
+        <targetEnds>
+          <association Id="750eb7cc-4344-4954-b36c-e16e7479220d" isDerived="false" sourceEndRoleName="DALPort" targetEndRoleName="Database" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f9add3d7-4a32-4315-887e-8e6678a28912" LastKnownName="Database" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5f187921-9285-4f1e-a02e-b8e77b8263f8" name="DALPort" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f451ad8d-87cb-4a6b-929f-96224b782779" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ec149b6d-1c24-40c8-a1b7-1d472031d3d2" name="Database" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6427fc7b-c84b-4744-945e-8abc0d96e1dc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e0230c4b-7163-498d-a03c-5d6b99fec5b7" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f9add3d7-4a32-4315-887e-8e6678a28912" name="Database" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7b032a9b-2625-4b94-9814-750d67b7577d" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="58f8999b-447e-4702-9542-76fa247ad289" name="ModelingProject1">
+    <elementDefinition Id="c560acf4-7baa-4c58-b6ac-cb75a603efc8" />
+  </package>
+</logicalClassDesignerModel>

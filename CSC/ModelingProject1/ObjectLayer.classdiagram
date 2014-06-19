@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="45f1cb24-0452-461b-a605-f84df08f30ba" name="ObjectLayer" linkedPackageId="e1a9aa4a-5097-4576-8140-1727f7ae178b" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c955d2e8-f508-4517-b94a-e09e1e874a98">
+      <profileInstance Id="dc125d6d-2ccf-4e1b-9c80-3d64f2e94c36" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1e69f33e-84f6-480c-8280-ffdc36cd91f8">
+      <profileInstance Id="3464adff-f333-4489-9207-e8cb65ed2320" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="713cde4f-a947-4d82-a8ee-86486a0796cd" name="MainObject" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4c85ac19-c119-405b-81db-fcc092aa2d83" />
+        <ownedAttributesInternal>
+          <property Id="4c7974b2-4f30-4fe8-90c0-59fb217f9fa3" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="28805d93-29fa-4949-8234-7adf428f50e9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a19e1d78-7474-49b5-ab41-db763230128f" LastKnownName="INT" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="67d1f289-4a94-44eb-99b0-bf3ec843c71d" name="Container" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="18693316-ff05-4175-b759-81dfef3fb0e5" />
+        <generalsInternal>
+          <generalization Id="541e24c8-4c84-4216-84f7-250a7305b358" isSubstitutable="false">
+            <classMoniker Id="713cde4f-a947-4d82-a8ee-86486a0796cd" LastKnownName="MainObject" />
+            <elementDefinition Id="58bc1f34-2893-4ff3-82a9-de507e6e7d79" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="81aad51e-73aa-4dba-839f-290bdd1513ba" name="Height" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aed49d21-0c1e-4c66-bd51-21971f69229d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a19e1d78-7474-49b5-ab41-db763230128f" LastKnownName="INT" />
+            </type_NamedElement>
+          </property>
+          <property Id="7ace0722-e9b2-4c46-ac91-bb230fd0d43c" name="Width" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1bb47fdb-e48c-43a8-af08-5dfceb950917" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a19e1d78-7474-49b5-ab41-db763230128f" LastKnownName="INT" />
+            </type_NamedElement>
+          </property>
+          <property Id="c26c3c0a-fa4f-4b98-9651-bb04943ae69d" name="Length" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="77d0e51e-0d01-4c26-a7ef-7f71482e49a1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a19e1d78-7474-49b5-ab41-db763230128f" LastKnownName="INT" />
+            </type_NamedElement>
+          </property>
+          <property Id="7fcd6471-286f-419b-b465-865bc4e29710" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6eff7a87-7ec1-46fa-8c6c-83cabeefc532" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="eec12d89-cf7a-44e6-9515-910e4f09b787" LastKnownName="VARCHAR2" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b36e7701-deeb-4305-94df-a5fd3015c277" name="Port" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c728c4c7-5231-4dce-a72b-79460ddc87ad" />
+        <generalsInternal>
+          <generalization Id="dd3acac2-1d1b-4455-983a-66200963afd2" isSubstitutable="false">
+            <classMoniker Id="713cde4f-a947-4d82-a8ee-86486a0796cd" LastKnownName="MainObject" />
+            <elementDefinition Id="ef89bc57-3b56-4c16-beda-761281f7fc99" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="1501b221-cee2-40c7-8595-9a82d14e0601" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="283c4e31-fe26-4646-bf1e-d89d604f3c9b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="efb9978d-9cc1-4661-b67d-5f26b5cd2fde" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="44f31e9d-3b08-41dd-8f21-27f36ac465a0" name="Location" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="175e16e7-0ae7-4d52-871e-c92831e46c99" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="efb9978d-9cc1-4661-b67d-5f26b5cd2fde" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="db7f041a-451b-42fb-a5bd-ee07d2d12f97" name="Ship" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9da1ae26-a427-4d2d-931e-ec92da13e0ca" />
+        <generalsInternal>
+          <generalization Id="8cc7a4e7-b1f6-46ac-8977-4903cf7efeb3" isSubstitutable="false">
+            <classMoniker Id="713cde4f-a947-4d82-a8ee-86486a0796cd" LastKnownName="MainObject" />
+            <elementDefinition Id="57d080b9-0541-4aeb-aede-89ec1db3c1db" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="caddf832-596f-48a0-8f78-ffee7356d0ba" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d3b99e91-e215-492e-a68a-dcf259dcf36b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="efb9978d-9cc1-4661-b67d-5f26b5cd2fde" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="cc3d972d-fc34-4126-a432-fb1cacb6924c" name="Poweroutlet" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6c585b7f-cd5e-4602-b170-c9df80771172" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a19e1d78-7474-49b5-ab41-db763230128f" LastKnownName="INT" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="a19e1d78-7474-49b5-ab41-db763230128f" name="INT" isAbstract="false" isLeaf="false" cachedFullName="INT">
+        <elementDefinition Id="e8ee5556-f1a9-41a1-a2e2-b69659369a3c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="efb9978d-9cc1-4661-b67d-5f26b5cd2fde" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="eec12d89-cf7a-44e6-9515-910e4f09b787" name="VARCHAR2" isAbstract="false" isLeaf="false" cachedFullName="VARCHAR2">
+        <elementDefinition Id="a0b669e0-52de-4078-9d53-729bf9880c68" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e1a9aa4a-5097-4576-8140-1727f7ae178b" name="ModelingProject1">
+    <elementDefinition Id="c560acf4-7baa-4c58-b6ac-cb75a603efc8" />
+  </package>
+</logicalClassDesignerModel>
