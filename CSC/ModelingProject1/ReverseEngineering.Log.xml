@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-06-20T09:40:48" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '9e995fbb-af78-41f2-a20c-8f0d3c1a34d1' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer' -  (Package)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALContainer' -  (Class)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALContainer::DALContainer' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALContainer::GetCompanies' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALContainer::GetContainers' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALContainer::GetContainers::port' -  (Parameter)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALContainer::GetContainers::ship' -  (Parameter)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALPort' -  (Class)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALPort::DALPort' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALPort::GetPorts' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALShip' -  (Class)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALShip::DALShip' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::DALShip::GetShips' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database' -  (Class)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::AddParameter' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::AddParameter::parameterName' -  (Parameter)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::AddParameter::type' -  (Parameter)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::AddParameter::value' -  (Parameter)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::CloseConnection' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::Command' -  (Property)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::Connection' -  (Property)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::CreateCommand' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::CreateCommand::commandText' -  (Parameter)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::Database' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::Dispose' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::DataAccessLayer::Database::OpenConnection' -  (Operation)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::MySql' -  (Package)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::MySql::Data' -  (Package)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::MySql::Data::MySqlClient' -  (Package)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::MySql::Data::MySqlClient::MySqlCommand' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::MySql::Data::MySqlClient::MySqlConnection' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::MySql::Data::MySqlClient::MySqlDbType' -  (Enumeration)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ObjectLayer' -  (Package)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ObjectLayer::Company' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ObjectLayer::Container' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ObjectLayer::Port' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ObjectLayer::Ship' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections' -  (Package)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Company‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Container‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Port‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Ship‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::IDisposable' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::DataAccessLayer::Database to ModelingProject1::MySql::Data::MySqlClient::MySqlCommand (Association)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::DataAccessLayer::Database to ModelingProject1::MySql::Data::MySqlClient::MySqlConnection (Association)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::DataAccessLayer::Database to ModelingProject1::System::IDisposable (InterfaceRealization)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ObjectLayer::Container to ModelingProject1::ObjectLayer::MainObject (Generalization)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ObjectLayer::Company to ModelingProject1::ObjectLayer::MainObject (Generalization)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ObjectLayer::Port to ModelingProject1::ObjectLayer::MainObject (Generalization)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ObjectLayer::Ship to ModelingProject1::ObjectLayer::MainObject (Generalization)" />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="High" Text="(4) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="High" Text="(14) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-06-20T09:40:50" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

@@ -16,6 +16,12 @@
         Id="532ea607-fb19-44b8-8502-3351b05452be"
         name="StandardProfileL3" />
     </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="a62bdffa-3e23-4e10-9616-a6252a8c4b51">
+      <profileInstance
+        Id="f2003364-5919-4e59-9aff-2f4897118f0c"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
   </profileInstances>
   <packagedElements>
     <packageHasNamedElement>
@@ -66,6 +72,19 @@
             </relationshipOwnedElementsInternal>
           </association>
         </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="59262fce-3c4f-4298-a9ad-51c7ac32a237"
+            name="GetShip()"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -116,6 +135,30 @@
             </relationshipOwnedElementsInternal>
           </association>
         </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4c33a2b7-0e54-4ff9-ba41-8676075e6f14"
+            name="GetContainer()"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e5ec1a02-63ec-4969-847d-4b77167bd056"
+            name="AddContainer()"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -166,6 +209,19 @@
             </relationshipOwnedElementsInternal>
           </association>
         </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="40685463-9553-4387-8940-d6f236e5b3dd"
+            name="GetPorts()"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -174,7 +230,32 @@
         name="Database"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="dd70e646-c14a-41b8-9381-639bfea2f74c"
+            name="OpenConnection()"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="fece529a-cc2c-4d33-97a2-17ba614200fd"
+            name="CloseConnection()"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -421,6 +502,36 @@
       <undefinedType
         Id="a0b669e0-52de-4078-9d53-729bf9880c68"
         name="VARCHAR2" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e811b128-7e01-4a87-b46b-381094dc8d5b"
+        LastKnownName="BussinessLayer"
+        LastKnownLocation="Package_0926.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="42bde98f-069f-41ff-821c-c94d1a2e4c58"
+        LastKnownName="System"
+        LastKnownLocation="Package1_0926.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="375c27b6-0d4d-469d-a2b6-b170cb8b38e8"
+        LastKnownName="ObjectLayer"
+        LastKnownLocation="Package4_0926.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d313c9fe-2d00-4967-8134-932a99e63057"
+        LastKnownName="DataAccessLayer"
+        LastKnownLocation="Package_0929.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b315d9e3-aa98-4db5-b211-cce01fd36f11"
+        LastKnownName="MySql"
+        LastKnownLocation="Package1_0929.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

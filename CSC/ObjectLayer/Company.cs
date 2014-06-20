@@ -1,25 +1,25 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="MainObject.cs" company="">
+// <copyright file="Company.cs" company="">
 //   
 // </copyright>
 // <summary>
-//   The main object.
+//   The company.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace ObjectLayer
 {
     /// <summary>
-    /// The main object.
+    /// The company.
     /// </summary>
-    public class MainObject
+    public class Company : MainObject
     {
         #region Public Properties
 
         /// <summary>
-        /// Gets or sets the id.
+        /// Gets or sets the name.
         /// </summary>
-        public int id { get; set; }
+        public string name { get; set; }
 
         #endregion
     }
